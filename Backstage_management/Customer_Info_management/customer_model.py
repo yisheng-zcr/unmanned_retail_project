@@ -42,6 +42,14 @@ class Customer(object):
 			if del_item in self.Cart:
 				self.Cart.pop(del_item)
 
+	def Settlement():
+		for item in self.Cart:
+			if item in self.Purchase_history:
+				self.Purchase_history[item]+=self.Cart[item]
+			else:
+				self.Purchase_history[item]=self.Cart[item]
+		self.Cart={}
+
 
 	 	
 		

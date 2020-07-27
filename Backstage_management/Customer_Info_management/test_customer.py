@@ -20,7 +20,7 @@ obj1.Del_from_history(New_record)
 obj1.myprint()
 
 New_cart={
-	"apple":1
+	"apple":3
 }
 
 obj1.Add_to_cart(New_cart)

@@ -1,1 +1,3 @@
 # unmanned_retail_project
+
+这个项目用于完成大学生创业创新训练

@@ -23,11 +23,25 @@ class Customer(object):
 			if new_item in self.Purchase_history:
 				self.Purchase_history[new_item]+=New_record[new_item]
 			else:
-				self.Purchase_history[new_item]=1
+				self.Purchase_history[new_item]=New_record[new_item]
 
 	def Del_from_history(self,Del_Record):
 		for del_item in Del_Record:
 			if del_item in self.Purchase_history:
 				self.Purchase_history.pop(del_item)
 
+	def Add_to_cart(self,New_cart):
+		for new_item in New_cart:
+			if new_item in self.Cart:
+				self.Cart[new_item]+=New_cart[new_item]
+			else:
+				self.Cart[new_item]=New_cart[new_item]
 
+	def Del_from_cart(self,Del_cart):
+		for del_item in Del_cart:
+			if del_item in self.Cart:
+				self.Cart.pop(del_item)
+
+
+	 	
+		

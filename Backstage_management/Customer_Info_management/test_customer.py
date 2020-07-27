@@ -18,3 +18,12 @@ obj1.Add_to_history(New_record)
 obj1.myprint()
 obj1.Del_from_history(New_record)
 obj1.myprint()
+
+New_cart={
+	"apple":1
+}
+
+obj1.Add_to_cart(New_cart)
+obj1.myprint()
+obj1.Del_from_cart(New_cart)
+obj1.myprint()

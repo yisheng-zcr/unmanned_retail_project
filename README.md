@@ -1,18 +1,22 @@
 # unmanned_retail_project
 
-这个项目用于完成大学生创业创新训练
+This repo is used to store codes for "DaChuang"
 
-#### 对客户信息的设计
+### Backstage_management
 
-1. 个人信息
+#### Customer_Info_management
 
-   个人ID（how?根据人脸值哈希？）
+This folder stores customer's information
 
-   过去购买记录
+1. The design of customer information Object
 
-2. 购物车
+   Personal ID (from hash given by face recognition? or by iterator?)
 
-   记录当前购物数据即可
+   Purchase_history: Store the customer's history
+
+   Cart: When a customer enter the store ,It needs a cart to record what he/she take from shelf
+
+
 
 
 
